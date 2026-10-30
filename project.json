@@ -1,0 +1,817 @@
+{
+  "name": "lige",
+  "mode": "product",
+  "brand": "BOUHAJ",
+  "cpa": {
+    "offerUrl": "",
+    "logoImage": "",
+    "favicon": "",
+    "heroImage": "",
+    "logoWidth": 180,
+    "logoHeight": 48,
+    "imageX": 0,
+    "imageY": 0,
+    "layout": "split",
+    "imageWidth": 560,
+    "imageHeight": 560,
+    "imageRadius": 28,
+    "contentMaxWidth": 1180,
+    "textAlign": "right",
+    "showBadge": true,
+    "showDescription": true,
+    "background": "#F7F8F6",
+    "textColor": "#171717",
+    "accent": "#C4E600",
+    "buttonBackground": "#C4E600",
+    "buttonText": "#171717",
+    "buttonRadius": 14,
+    "sections": {
+      "hero": true,
+      "benefits": true,
+      "steps": true,
+      "faq": true,
+      "finalCta": true
+    },
+    "ar": {
+      "title": "عرض خاص",
+      "description": "اكتشف العرض الآن",
+      "cta": "احصل على العرض",
+      "badge": "عرض حصري"
+    },
+    "en": {
+      "title": "Special Offer",
+      "description": "Discover the offer now",
+      "cta": "Get the Offer",
+      "badge": "Exclusive Offer"
+    },
+    "benefits": [
+      "عرض واضح ومباشر",
+      "تجربة سريعة",
+      "خطوات بسيطة"
+    ],
+    "steps": [
+      "افتح العرض",
+      "أكمل الخطوات المطلوبة",
+      "استفد من العرض"
+    ],
+    "faq": [
+      {
+        "q": "كيف يعمل العرض؟",
+        "a": "اضغط على الزر وانتقل إلى صفحة العرض الرسمية."
+      }
+    ]
+  },
+  "language": "ar",
+  "direction": "rtl",
+  "product": {
+    "name": "منتجك هنا",
+    "description": "ساعة LIGE بتصميم عصري ومظهر راقٍ يناسب الاستخدام اليومي والمناسبات.",
+    "price": 69,
+    "oldPrice": 99,
+    "currency": "MAD",
+    "discount": 30,
+    "sku": "",
+    "heroImage": "./assets/images/2.jpg",
+    "gallery": [
+      "./assets/images/2.jpg",
+      "./assets/images/t-l-chargement.jpg"
+    ],
+    "category": "general",
+    "options": [],
+    "variants": [],
+    "stock": null,
+    "inventory": {
+      "display": "status"
+    },
+    "details": {},
+    "features": [
+      "تصميم أنيق وعصري",
+      "مريحة للارتداء اليومي",
+      "تناسب مختلف الإطلالات"
+    ]
+  },
+  "products": [],
+  "inventory": {
+    "mode": "static"
+  },
+  "landing": {
+    "template": "commerce-conversion"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#C8431E",
+      "primaryDark": "#A5361A",
+      "soft": "#FDEBE4",
+      "background": "#FFFFFF",
+      "surface": "#F6F7F9",
+      "text": "#16202B",
+      "muted": "#566372",
+      "border": "#E1E6EC",
+      "white": "#FFFFFF",
+      "success": "#1E9E5A",
+      "danger": "#B42318",
+      "dark": "#16202B"
+    },
+    "typography": {
+      "fontFamily": "Inter, 'Segoe UI', Tahoma, Arial, sans-serif",
+      "headingFontFamily": "Inter, 'Segoe UI', Tahoma, Arial, sans-serif",
+      "fontSize": 16,
+      "headingScale": 1,
+      "lineHeight": 1.65,
+      "headingWeight": 800,
+      "bodyWeight": 400,
+      "letterSpacing": "0px"
+    },
+    "layout": {
+      "maxWidth": 1180,
+      "containerWidth": "92%",
+      "sectionY": 56,
+      "cardGap": 16
+    },
+    "shape": {
+      "radius": 12,
+      "buttonRadius": 10,
+      "cardRadius": 14
+    }
+  },
+  "header": {
+    "enabled": true,
+    "sticky": true,
+    "transparent": false,
+    "height": 72,
+    "logoText": "BOUHAJ",
+    "logoImage": "",
+    "logoWidth": 180,
+    "logoHeight": 48,
+    "showBrand": true,
+    "showNav": false,
+    "navItems": [],
+    "background": "#FFFFFF",
+    "textColor": "#16202B",
+    "border": true,
+    "shadow": false,
+    "paddingX": 20
+  },
+  "announcement": {
+    "enabled": false,
+    "slides": [
+      "عرض خاص لفترة محدودة",
+      "التوصيل داخل المغرب",
+      "الدفع عند الاستلام"
+    ],
+    "speed": 3500,
+    "background": "#16202B",
+    "textColor": "#FFFFFF",
+    "showDots": false
+  },
+  "hero": {
+    "background": "#FFFFFF",
+    "paddingY": 36,
+    "minHeight": 400,
+    "columns": "1.1fr 1fr",
+    "gap": 48,
+    "imageWidth": 520,
+    "imageRadius": 14,
+    "imageFit": "contain",
+    "imagePosition": "center center",
+    "imageX": 0,
+    "imageY": 0,
+    "imageScale": 1,
+    "textAlign": "right",
+    "showBadge": true,
+    "showPrice": true,
+    "showOldPrice": true,
+    "showDiscount": true,
+    "showTrust": true,
+    "primaryButtonStyle": "solid",
+    "secondaryButtonEnabled": false,
+    "secondaryButtonText": "اكتشف المزيد",
+    "secondaryButtonHref": "#showcase"
+  },
+  "sections": {
+    "hero": true,
+    "trust": true,
+    "benefits": true,
+    "showcase": true,
+    "howItWorks": true,
+    "specifications": true,
+    "offer": true,
+    "reviews": true,
+    "faq": true,
+    "finalCta": true
+  },
+  "sectionOrder": [
+    "hero",
+    "trust",
+    "benefits",
+    "showcase",
+    "offer",
+    "howItWorks",
+    "specifications",
+    "faq",
+    "reviews",
+    "finalCta"
+  ],
+  "content": {
+    "heroBadge": "ساعة LIGE الأنيقة",
+    "heroTitle": "ساعة LIGE بتصميم عصري وأنيق",
+    "heroText": "ساعة تجمع بين الأناقة والعملية لتكمل مظهرك في مختلف المناسبات.",
+    "primaryButton": "اطلب الآن",
+    "trustItems": [
+      "الدفع عند الاستلام",
+      "التوصيل داخل المغرب",
+      "طلب سريع"
+    ],
+    "benefitsTitle": "مميزات ساعة LIGE",
+    "benefitsText": "تفاصيل ومزايا تجعل الساعة خياراً مميزاً لإطلالتك.",
+    "howTitle": "طريقة العناية بالساعة",
+    "howSteps": [
+      "احفظ الساعة في مكان جاف",
+      "نظف الساعة بقطعة قماش ناعمة",
+      "تجنب تعريضها للمواد الكيميائية"
+    ],
+    "specsTitle": "معلومات المنتج",
+    "offerTitle": "طلب ساعة LIGE",
+    "offerText": "أدخل بياناتك أدناه لإكمال الطلب.",
+    "reviewsTitle": "آراء العملاء",
+    "faqTitle": "الأسئلة الشائعة",
+    "finalTitle": "جاهز لاقتناء ساعتك؟",
+    "finalText": "اطلب الآن بخطوات بسيطة."
+  },
+  "specifications": [
+    {
+      "label": "SKU",
+      "value": "غير محدد"
+    },
+    {
+      "label": "السعر",
+      "value": "69 MAD"
+    },
+    {
+      "label": "الخصم",
+      "value": "30%"
+    }
+  ],
+  "custom": {
+    "reviews": [
+      "منتج جميل وسهل الاستخدام.",
+      "تجربة بسيطة والتوصيل كان سهلا."
+    ],
+    "faq": [
+      {
+        "q": "كيف أطلب؟",
+        "a": "املأ بيانات الطلب ثم اضغط على زر الإرسال."
+      },
+      {
+        "q": "كيف يتم الدفع؟",
+        "a": "يمكن تفعيل الدفع عند الاستلام أو ربط مسار الطلب المناسب لك."
+      }
+    ]
+  },
+  "buttons": {
+    "primaryBackground": "#C8431E",
+    "primaryText": "#FFFFFF",
+    "primaryBorder": "#C8431E",
+    "secondaryBackground": "#FFFFFF",
+    "secondaryText": "#16202B",
+    "secondaryBorder": "#E1E6EC",
+    "paddingX": 28,
+    "paddingY": 15,
+    "fontWeight": 800,
+    "radius": 10,
+    "shadow": false
+  },
+  "orderForm": {
+    "enabled": true,
+    "title": "اطلب الآن",
+    "webhookUrl": "",
+    "successMessage": "تم استلام طلبك، سنتواصل معك لتأكيده.",
+    "fields": {
+      "name": true,
+      "phone": true,
+      "city": true,
+      "address": true,
+      "note": true
+    }
+  },
+  "whatsapp": {
+    "enabled": false,
+    "number": "",
+    "message": "مرحبا، أريد طلب {product}",
+    "position": "left"
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "ogImage": "",
+    "canonical": "",
+    "robots": "index,follow"
+  },
+  "assets": {
+    "fonts": []
+  },
+  "magicCss": {
+    "enabled": true,
+    "heroGlow": true,
+    "sectionGlow": true,
+    "imageGlow": true,
+    "cardGlow": true,
+    "buttonGlow": true,
+    "animatedAura": true,
+    "hoverLift": true,
+    "shine": true,
+    "color1": "#C4E600",
+    "color2": "#7C3AED",
+    "color3": "#00D9FF",
+    "intensity": 0.55,
+    "blur": 42,
+    "spread": 18,
+    "speed": 6,
+    "sectionOpacity": 0.18,
+    "imageGlowSize": 70,
+    "cardGlowSize": 34,
+    "buttonGlowSize": 24,
+    "advanced": {
+      "enabled": true,
+      "scrollReveal": true,
+      "scrollThreshold": 0.12,
+      "globalDuration": 0.8,
+      "globalDelay": 0,
+      "globalEase": "cubic-bezier(.22,1,.36,1)",
+      "globalDistance": 32,
+      "globalScale": 0.96,
+      "globalRotate": 0,
+      "globalBlur": 0,
+      "hero": {
+        "enabled": true,
+        "duration": 1.1,
+        "delay": 0.05,
+        "ease": "cubic-bezier(.16,1,.3,1)",
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "rotate": 0,
+        "skew": 0,
+        "opacity": 1,
+        "blur": 0,
+        "hoverX": 0,
+        "hoverY": -6,
+        "hoverScale": 1.015,
+        "hoverRotate": 0
+      },
+      "image": {
+        "enabled": true,
+        "duration": 1.2,
+        "delay": 0.12,
+        "ease": "cubic-bezier(.16,1,.3,1)",
+        "x": 40,
+        "y": 0,
+        "scale": 0.92,
+        "rotate": -2,
+        "opacity": 1,
+        "blur": 0,
+        "hoverX": 0,
+        "hoverY": -10,
+        "hoverScale": 1.03,
+        "hoverRotate": 1
+      },
+      "cards": {
+        "enabled": true,
+        "duration": 0.7,
+        "delay": 0.08,
+        "ease": "cubic-bezier(.22,1,.36,1)",
+        "x": 0,
+        "y": 28,
+        "scale": 0.96,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0,
+        "hoverX": 0,
+        "hoverY": -8,
+        "hoverScale": 1.02,
+        "hoverRotate": 0
+      },
+      "buttons": {
+        "enabled": true,
+        "duration": 0.55,
+        "delay": 0,
+        "ease": "cubic-bezier(.22,1,.36,1)",
+        "x": 0,
+        "y": 12,
+        "scale": 0.96,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0,
+        "hoverX": 0,
+        "hoverY": -4,
+        "hoverScale": 1.04,
+        "hoverRotate": 0
+      },
+      "section": {
+        "enabled": true,
+        "duration": 0.9,
+        "delay": 0,
+        "ease": "cubic-bezier(.22,1,.36,1)",
+        "x": 0,
+        "y": 20,
+        "scale": 1,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "header": {
+        "enabled": false,
+        "duration": 0.6,
+        "delay": 0,
+        "ease": "ease",
+        "x": 0,
+        "y": -10,
+        "scale": 1,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "badge": {
+        "enabled": true,
+        "duration": 0.6,
+        "delay": 0,
+        "ease": "ease-out",
+        "x": 0,
+        "y": 10,
+        "scale": 0.95,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "text": {
+        "enabled": true,
+        "duration": 0.7,
+        "delay": 0.08,
+        "ease": "cubic-bezier(.22,1,.36,1)",
+        "x": 0,
+        "y": 18,
+        "scale": 0.98,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "glowPulse": true,
+      "glowDuration": 3.5,
+      "glowMin": 0.35,
+      "glowMax": 0.85,
+      "shimmerDuration": 1.1,
+      "shimmerAngle": 115,
+      "shimmerOpacity": 0.45,
+      "parallax": false,
+      "parallaxStrength": 10,
+      "stagger": 0.08
+    },
+    "colors": {
+      "g1": "#C4E600",
+      "g2": "#7C3AED",
+      "g3": "#00D9FF",
+      "g4": "#FF4ECD"
+    },
+    "background": {
+      "enabled": true,
+      "type": "aurora",
+      "opacity": 0.18,
+      "blur": 70,
+      "scale": 1.15,
+      "speed": 12,
+      "angle": 135
+    },
+    "features": {
+      "cursorSpotlight": false,
+      "magneticButtons": false,
+      "tilt3d": false,
+      "gradientBorder": false,
+      "skeleton": false,
+      "grain": false,
+      "scrollTimeline": false,
+      "tiltStrength": 10,
+      "magneticStrength": 12,
+      "borderSpeed": 8,
+      "grainOpacity": 0.08,
+      "skeletonDuration": 1.2,
+      "spotlight": {
+        "size": 520,
+        "opacity": 0.22
+      },
+      "liveCounter": {
+        "enabled": false,
+        "duration": 1.6
+      }
+    },
+    "layout": {
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "sectionGap": 0,
+      "contentMaxWidth": 0,
+      "heroZ": 0,
+      "radiusTL": 0,
+      "radiusTR": 0,
+      "radiusBR": 0,
+      "radiusBL": 0
+    },
+    "responsive": {
+      "mobile": 560,
+      "tablet": 900,
+      "mobileScale": 1,
+      "tabletScale": 1
+    },
+    "customCss": ""
+  },
+  "cpaMagicCss": {
+    "enabled": true,
+    "heroGlow": true,
+    "imageGlow": true,
+    "sectionGlow": true,
+    "cardGlow": true,
+    "buttonGlow": true,
+    "animatedAura": true,
+    "hoverLift": true,
+    "shine": true,
+    "colors": {
+      "g1": "#C4E600",
+      "g2": "#7C3AED",
+      "g3": "#00D9FF",
+      "g4": "#FF4ECD"
+    },
+    "intensity": 0.6,
+    "blur": 55,
+    "spread": 24,
+    "advanced": {
+      "scrollReveal": true,
+      "globalDuration": 0.85,
+      "globalEase": "cubic-bezier(.22,1,.36,1)",
+      "hero": {
+        "duration": 1.15,
+        "x": 0,
+        "y": 24,
+        "scale": 0.96,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "image": {
+        "duration": 1.25,
+        "x": 55,
+        "y": 0,
+        "scale": 0.9,
+        "rotate": 2,
+        "opacity": 1,
+        "blur": 0
+      },
+      "cards": {
+        "duration": 0.7,
+        "x": 0,
+        "y": 30,
+        "scale": 0.96,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "buttons": {
+        "duration": 0.55,
+        "x": 0,
+        "y": 12,
+        "scale": 0.96,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "text": {
+        "duration": 0.75,
+        "x": 0,
+        "y": 18,
+        "scale": 0.98,
+        "rotate": 0,
+        "opacity": 1,
+        "blur": 0
+      },
+      "stagger": 0.1,
+      "glowPulse": true,
+      "glowDuration": 3.2,
+      "shimmerDuration": 1.05,
+      "shimmerAngle": 115,
+      "shimmerOpacity": 0.5,
+      "background": {
+        "enabled": true,
+        "type": "aurora",
+        "opacity": 0.2,
+        "blur": 75,
+        "scale": 1.2,
+        "speed": 14,
+        "angle": 140
+      }
+    }
+  },
+  "features": {
+    "cursorSpotlight": false,
+    "magneticButtons": false,
+    "tilt3d": false,
+    "gradientBorder": false,
+    "skeleton": false,
+    "grain": false,
+    "scrollTimeline": false,
+    "tiltStrength": 10,
+    "magneticStrength": 12,
+    "borderSpeed": 8,
+    "grainOpacity": 0.08,
+    "skeletonDuration": 1.2,
+    "spotlight": {
+      "size": 520,
+      "opacity": 0.22
+    },
+    "liveCounter": {
+      "enabled": false,
+      "duration": 1.6
+    }
+  },
+  "neonFx": {
+    "enabled": true,
+    "color1": "#C4E600",
+    "color2": "#00D9FF",
+    "color3": "#FF4ECD",
+    "intensity": 0.7,
+    "speed": 6,
+    "borderWidth": 1.5,
+    "glowSize": 28,
+    "text": true,
+    "cards": true,
+    "button": true,
+    "image": true,
+    "sweep": true
+  },
+  "cpaNeonFx": {
+    "enabled": true,
+    "color1": "#C4E600",
+    "color2": "#00D9FF",
+    "color3": "#FF4ECD",
+    "intensity": 0.7,
+    "speed": 6,
+    "borderWidth": 1.5,
+    "glowSize": 28,
+    "text": true,
+    "cards": true,
+    "button": true,
+    "image": true,
+    "sweep": true
+  },
+  "cpaWorkspace": {
+    "offers": [],
+    "campaigns": [],
+    "links": [],
+    "analytics": {
+      "enabled": true
+    }
+  },
+  "cpaPage": {
+    "family": ""
+  },
+  "cpaAssets": {
+    "fonts": []
+  },
+  "cpaTracking": {
+    "metaPixels": [],
+    "tiktokPixels": [],
+    "googleAdsIds": [],
+    "pinterestTagId": "",
+    "snapchatPixelId": "",
+    "gtmId": "",
+    "consentMode": false
+  },
+  "cpaTypography": {
+    "fontFamily": "Arial, sans-serif",
+    "headingFontFamily": "Arial, sans-serif",
+    "fontSize": 17,
+    "bodyWeight": 400,
+    "headingWeight": 800,
+    "lineHeight": 1.65
+  },
+  "cpaHeader": {
+    "enabled": true,
+    "brand": "BOUHAJ",
+    "background": "#FFFFFF",
+    "textColor": "#171717",
+    "height": 76
+  },
+  "cpaButton": {
+    "paddingX": 28,
+    "paddingY": 16,
+    "fontWeight": 900
+  },
+  "cpaSeo": {
+    "title": "",
+    "description": "",
+    "ogImage": "",
+    "canonical": "",
+    "robots": "index,follow",
+    "customCss": ""
+  },
+  "builder": {
+    "enabled": true,
+    "variables": {
+      "primary": "#4F8CFF",
+      "surface": "#FFFFFF",
+      "text": "#1C2430",
+      "muted": "#697789",
+      "radius": 18,
+      "gap": 18,
+      "contentMaxWidth": 1180
+    },
+    "responsive": {
+      "desktop": 1440,
+      "tablet": 900,
+      "mobile": 560
+    },
+    "position": "end",
+    "sections": [
+      {
+        "id": "custom-hero",
+        "title": "قسم مخصص",
+        "enabled": false,
+        "background": "#FFFFFF",
+        "backgroundImage": "",
+        "overlay": 0,
+        "paddingTop": 72,
+        "paddingRight": 24,
+        "paddingBottom": 72,
+        "paddingLeft": 24,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "minHeight": 220,
+        "maxWidth": 1180,
+        "columns": 2,
+        "gap": 24,
+        "align": "center",
+        "radius": 24,
+        "shadow": true,
+        "opacity": 1,
+        "zIndex": 1,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "قسمك المخصص يبدأ من هنا",
+            "subtext": "ابن صفحة فريدة بدون التقيد بقالب ثابت.",
+            "fontFamily": "Arial, sans-serif",
+            "fontSize": 42,
+            "fontWeight": 800,
+            "lineHeight": 1.15,
+            "letterSpacing": "0px",
+            "color": "#F5F8FF",
+            "align": "right",
+            "width": "100%",
+            "padding": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "opacity": 1,
+            "blendMode": "normal",
+            "zIndex": 1,
+            "desktopVisible": true,
+            "tabletVisible": true,
+            "mobileVisible": true
+          },
+          {
+            "type": "button",
+            "text": "ابدأ الآن",
+            "href": "#offer",
+            "background": "#4F8CFF",
+            "textColor": "#FFFFFF",
+            "fontFamily": "Arial, sans-serif",
+            "fontSize": 16,
+            "fontWeight": 800,
+            "radius": 14,
+            "paddingX": 24,
+            "paddingY": 14,
+            "opacity": 1,
+            "blendMode": "normal",
+            "zIndex": 1,
+            "desktopVisible": true,
+            "tabletVisible": true,
+            "mobileVisible": true
+          }
+        ]
+      }
+    ]
+  },
+  "customCss": "/* BOUHAJ AI 2026-10-30T20:12:52.399Z */\n:root {\n  --primary: #1E3A8A;\n  --primary-dark: #172554;\n  --soft: #EFF6FF;\n  --surface: #F8FAFC;\n  --text: #0F172A;\n  --muted: #475569;\n  --border: #E2E8F0;\n}\n\n.btn-primary {\n  background-color: #1E3A8A !important;\n  border-color: #1E3A8A !important;\n  color: #FFFFFF !important;\n}\n\n.btn-primary:hover {\n  background-color: #172554 !important;\n  border-color: #172554 !important;\n}\n\n.save-badge,\n.cc-price .save-badge {\n  background-color: #1E3A8A !important;\n  color: #FFFFFF !important;\n}\n\n.cc-ben-ic,\n.cc-badge-ic {\n  background-color: #EFF6FF !important;\n  color: #1E3A8A !important;\n}\n\n.eyebrow {\n  color: #1E3A8A !important;\n}\n\n.cc-points .ic {\n  color: #2563EB !important;\n}",
+  "integrations": {
+    "appsScriptUrl": "",
+    "turnstileSiteKey": "",
+    "customDomain": "go,bouhaj.com",
+    "metaPixels": [],
+    "tiktokPixels": [],
+    "googleAdsIds": [],
+    "pinterestTagId": "",
+    "snapchatPixelId": "",
+    "gtmId": "",
+    "consentMode": false
+  },
+  "meta": {
+    "builderVersion": "0.1.1"
+  }
+}

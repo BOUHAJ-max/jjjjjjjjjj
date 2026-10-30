@@ -1,0 +1,6 @@
+node_modules/
+.bouhaj/
+.bouhaj-github.json
+.DS_Store
+Thumbs.db
+*.log
